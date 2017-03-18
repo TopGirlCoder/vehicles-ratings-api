@@ -11,6 +11,6 @@ namespace :github do
     sh %{ git add . }
     sh %{ git commit -m "#{args.message}" }
     sh %{ git pull }
-    sh %{ git push}
+    sh %{ git push }
   end	
 end	
