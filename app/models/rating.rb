@@ -3,3 +3,6 @@ class Rating < ApplicationRecord
   
   validates :reviewedBy, presence: true
 end
+
+# To get all of the ratings
+# Car.select('cars.id, cars.make, cars.model, cars.year, ratings.safety, ratings.performance, ratings.technology, ratings.interior, ratings.reliability, ratings.overall').joins(:ratings)
