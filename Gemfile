@@ -34,6 +34,10 @@ gem 'active_model_serializers', '~> 0.10.0'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  # Use RSPEC for testing
+	gem 'rspec-rails'
+	 # Use Factory Girl for generating random test data
+  gem 'factory_girl_rails'
 end
 
 group :development do
