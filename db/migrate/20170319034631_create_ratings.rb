@@ -8,7 +8,7 @@ class CreateRatings < ActiveRecord::Migration[5.0]
       t.integer :interior
       t.integer :reliability
       t.integer :overall
-      t.references :car, foreign_key: true
+      t.references :car, foreign_key: true, index: true
 
       t.timestamps
     end
