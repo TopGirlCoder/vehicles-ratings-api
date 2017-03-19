@@ -38,6 +38,8 @@ group :development, :test do
 	gem 'rspec-rails'
 	 # Use Factory Girl for generating random test data
   gem 'factory_girl_rails'
+  # Use Faker to generate fake data
+  gem 'ffaker'
 end
 
 group :development do
