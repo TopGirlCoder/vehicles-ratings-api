@@ -1,4 +1,5 @@
 class API::RatingsController < ApplicationController
+
 	before_action :set_car
 	before_action :set_car_rating, only: [:edit, :show, :update, :destroy]
 
@@ -13,17 +14,10 @@ class API::RatingsController < ApplicationController
   	end
   end
 
-  def new
-    @rating = @car.ratings.new
-  end
-
-  def edit
-  end	
-
   def create
     @rating = @car.ratings.new(rating_params)
-    # @rating[:overall] = (:safety + :performance + :technology + :interior + :reliability)/5
     if @rating.save
+      @rating.overall_score
     	render json: @rating
     else	
     	render json: @rating.errors, status: :unprocessable_entity
@@ -32,6 +26,7 @@ class API::RatingsController < ApplicationController
 
   def update
     if @rating.update(rating_params)
+      @rating.overall_score
       render json: @rating
     else
       render json: @rating.errors, status: :unprocessable_entity 
@@ -42,7 +37,6 @@ class API::RatingsController < ApplicationController
     @rating.destroy
     head :no_content 
   end  
-
 
 	private
     def rating_params

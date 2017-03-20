@@ -30,10 +30,10 @@ ActiveRecord::Schema.define(version: 20170319034631) do
     t.integer  "technology"
     t.integer  "interior"
     t.integer  "reliability"
-    t.integer  "overall",     default: 0
+    t.integer  "overall"
     t.integer  "car_id"
-    t.datetime "created_at",              null: false
-    t.datetime "updated_at",              null: false
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
     t.index ["car_id"], name: "index_ratings_on_car_id", using: :btree
   end
 
