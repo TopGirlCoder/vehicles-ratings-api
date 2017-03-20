@@ -17,7 +17,7 @@ class API::RatingsController < ApplicationController
   def create
     @rating = @car.ratings.new(rating_params)
     if @rating.save
-      @rating.overall_score
+      # @rating.overall_score
     	render json: @rating
     else	
     	render json: @rating.errors, status: :unprocessable_entity
@@ -26,7 +26,7 @@ class API::RatingsController < ApplicationController
 
   def update
     if @rating.update(rating_params)
-      @rating.overall_score
+      # @rating.overall_score
       render json: @rating
     else
       render json: @rating.errors, status: :unprocessable_entity 
