@@ -3,8 +3,8 @@ class API::RatingsController < ApplicationController
 	before_action :set_car_rating, only: [:edit, :show, :update, :destroy]
 
 	def index
-			@ratings = Car.where(id: @car.id).select('cars.id, cars.make, cars.model, cars.year, ratings.safety, ratings.performance, ratings.technology, ratings.interior, ratings.reliability, ratings.overall').joins(:ratings)
-			render json: @ratings
+		@ratings = @car.ratings
+		render json: @ratings, include: ['car']
 	end	
 
   def show
