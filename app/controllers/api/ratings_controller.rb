@@ -22,6 +22,7 @@ class API::RatingsController < ApplicationController
 
   def create
     @rating = @car.ratings.new(rating_params)
+    # @rating[:overall] = (:safety + :performance + :technology + :interior + :reliability)/5
     if @rating.save
     	render json: @rating
     else	
