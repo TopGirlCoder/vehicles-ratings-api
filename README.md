@@ -23,9 +23,9 @@ This resource is primarily responsible for listing the ratings for vehicles.
 |------|------------| 
 |GET (example.com)/api/cars/:id/ratings | Retrieve a list of ratings for a vehicle|
 |GET (example.com)/api/cars/:id/ratings/:id | Retrieve a single rating for a vehicle|
-|POST(example.com)/api/cars | Create a rating for a vehicle|
-|PATCH (example.com)/api/cars/:id | Update a rating for a vehicle|
-|DELETE (example.com)/api/cars/:id | Delete a rating for a vehicle|
+|POST(example.com)/api/cars/:id/ratings/ | Create a rating for a vehicle|
+|PATCH (example.com)/api/cars/:id/ratings/:id | Update a rating for a vehicle|
+|DELETE (example.com)/api/cars/:id/ratings/:id | Delete a rating for a vehicle|
 
 ## Features
 ## Format
