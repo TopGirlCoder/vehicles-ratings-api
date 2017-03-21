@@ -9,7 +9,7 @@ This is the unofficial documentation of Tesla Vehicles and Ratings API used by a
 This resource is primarily responsible for listing the vehicles and the basic details about them.
 
 |Field | Description|
-|-----:|-----------:| 
+|------|------------| 
 |GET (example.com)/api/cars | Retrieve a list of vehicles|
 |GET (example.com)/api/cars/:id | Retrieve a single vehicle|
 |POST(example.com)/api/cars | Create a vehicle|
@@ -20,7 +20,7 @@ This resource is primarily responsible for listing the vehicles and the basic de
 This resource is primarily responsible for listing the ratings for vehicles.
 
 |Field | Description|
-|-----:|-----------:| 
+|------|------------| 
 |GET (example.com)/api/cars/:id/ratings | Retrieve a list of ratings for a vehicle|
 |GET (example.com)/api/cars/:id/ratings/:id | Retrieve a single rating for a vehicle|
 |POST(example.com)/api/cars | Create a rating for a vehicle|
