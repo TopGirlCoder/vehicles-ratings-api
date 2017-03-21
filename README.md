@@ -1,7 +1,7 @@
-# Vehicles Reviewers, Ratings API
+# Vehicles, Reviewers, Ratings API
 
 ## Introduction
-This is the unofficial documentation of Tesla Vehicles and Ratings API used by apps. It features functionality to retrieve, create, update, and delete Tesla vehicles and ratings.
+This is the unofficial documentation of Vehicles, Reviewers, Ratings API used by apps. It features functionality to retrieve, create, update, and delete Tesla vehicles and ratings.
 
 ## To access the API from the web
 From here you can use the endpoints (see below) to access the API: 
