@@ -7,6 +7,8 @@ This is the unofficial documentation of Tesla Vehicles and Ratings API used by a
 ## To access the API from the web
 From here you can use the endpoints (see below) to access the API: 
 <pre>https://cryptic-brushlands-41838.herokuapp.com</pre> 
+For example, to retrieve all of the cars:
+<pre>https://cryptic-brushlands-41838.herokuapp.com/api/cars</pre>
 
 ## To run on your local environment
 * Download directory from GitHub
