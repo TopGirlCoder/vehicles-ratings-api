@@ -5,7 +5,8 @@ www.github.com/topgirlcoder/tesla-server-app
 This is the unofficial documentation of Tesla Vehicles and Ratings API used by apps. It features functionality to retrieve, create, update, and delete Tesla vehicles and ratings.
 
 ## To access the API from the web
-Simply go to <pre>https://cryptic-brushlands-41838.herokuapp.com</pre>. From here you can use the endpoints to access the API.
+From here you can use the endpoints (see below) to access the API: 
+<pre>https://cryptic-brushlands-41838.herokuapp.com</pre> 
 
 ## To run on your local environment
 * Download directory from GitHub
