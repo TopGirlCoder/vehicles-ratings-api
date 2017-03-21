@@ -1,5 +1,4 @@
-# Tesla Vehicles and Ratings API
-www.github.com/topgirlcoder/tesla-server-app 
+# Vehicles Reviewers, Ratings API
 
 ## Introduction
 This is the unofficial documentation of Tesla Vehicles and Ratings API used by apps. It features functionality to retrieve, create, update, and delete Tesla vehicles and ratings.
