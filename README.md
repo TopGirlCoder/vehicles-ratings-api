@@ -5,7 +5,7 @@ www.github.com/topgirlcoder/tesla-server-app
 This is the unofficial documentation of Tesla Vehicles and Ratings API used by apps. It features functionality to retrieve, create, update, and delete Tesla vehicles and ratings.
 
 ## Reference
-###Vehicles
+### Vehicles
 This resource is primarily responsible for listing the vehicles and the basic details about them.
 
 |Field | Description|
@@ -16,7 +16,7 @@ This resource is primarily responsible for listing the vehicles and the basic de
 |PATCH (example.com)/api/cars/:id | Update a vehicle|
 |DELETE (example.com)/api/cars/:id | Delete a vehicle|
 
-###Ratings
+### Ratings
 This resource is primarily responsible for listing the ratings for vehicles.
 
 |Field | Description|
