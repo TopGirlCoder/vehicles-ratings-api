@@ -32,7 +32,7 @@ This resource is primarily responsible for listing the ratings for vehicles.
 The requests and responses in our API are transmitted in JSON—JavaScript Object Notation. It’s simple to use and implementations of JSON are widely available. Where you see Data in these documents for POST, PATCH, and PUT requests, you will need to send data as JSON in the body of your request.
 ## To run on your local environment
 * Download directory from GitHub
-* In the terminal, cd into directory and run: 
+* In the terminal, cd into the directory and run: 
 ```
 $ bundle install
 ``` 
@@ -42,7 +42,7 @@ $ bundle exec rake db:all
 ```
 $ bundle exec rails server
 ```
-* Open a browser window, type into the url: 
+* Open a new browser window, type into the url: 
 ```
 localhost:3000
 ```
