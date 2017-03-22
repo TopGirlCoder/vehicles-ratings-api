@@ -32,11 +32,11 @@ This resource is primarily responsible for listing the vehicles and the basic de
 
 |Endpoints | Description|
 |------|------------| 
-|GET (example.com)/api/cars | Retrieve a list of vehicles|
-|GET (example.com)/api/cars/:id | Retrieve a single vehicle|
-|POST(example.com)/api/cars | Create a vehicle|
-|PATCH (example.com)/api/cars/:id | Update a vehicle|
-|DELETE (example.com)/api/cars/:id | Delete a vehicle|
+|GET /api/cars | Retrieve a list of vehicles|
+|GET /api/cars/:id | Retrieve a single vehicle|
+|POST /api/cars | Create a vehicle|
+|PATCH /api/cars/:id | Update a vehicle|
+|DELETE /api/cars/:id | Delete a vehicle|
 
 ### Ratings
 This resource is primarily responsible for listing the ratings for vehicles.
