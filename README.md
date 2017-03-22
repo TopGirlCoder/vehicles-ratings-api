@@ -31,7 +31,7 @@ localhost:3000
 This resource is primarily responsible for listing the vehicles and the basic details about them.
 
 |Endpoints | Description|
-|------|------------| 
+|-----:|------------| 
 |GET /api/cars | Retrieve a list of vehicles|
 |GET /api/cars/:id | Retrieve a single vehicle|
 |POST /api/cars | Create a vehicle|
@@ -42,7 +42,7 @@ This resource is primarily responsible for listing the vehicles and the basic de
 This resource is primarily responsible for listing the ratings for vehicles.
 
 |Endpoints | Description|
-|------|------------| 
+|-----:|------------| 
 |GET /api/cars/:id/ratings | Retrieve a list of ratings for a vehicle|
 |GET /api/cars/:id/ratings/:id | Retrieve a single rating for a vehicle|
 |POST /api/cars/:id/ratings | Create a rating for a vehicle|
