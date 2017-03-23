@@ -1,5 +1,5 @@
 class API::CarsController < ApplicationController
-	before_action :set_car, only: [:edit, :show, :update, :destroy]
+  before_action :set_car, only: [:edit, :show, :update, :destroy]
 
   def index
     @cars = Car.all
