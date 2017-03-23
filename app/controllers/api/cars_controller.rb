@@ -40,6 +40,6 @@ class API::CarsController < ApplicationController
     end	
 
     def set_car
-    	@car = Car.find(params[:id])
+      @car = Car.find(params[:id])
     end	
 end
